@@ -46,14 +46,14 @@ Example response:
 -------------------------
 
 #### с Docker
-Разархивировать архив recommends в папку recommends_api 
+Разархивировать архив recommends в папку проекта 
 
 docker build -t docker-recommends-api .
 
 docker run --name api-container -p8080:8080 docker-recommends-api
 
 #### Без Docker
-Разархивировать архив recommends в папку recommends_api 
+Разархивировать архив recommends в папку проекта 
 
 python app.py
 
